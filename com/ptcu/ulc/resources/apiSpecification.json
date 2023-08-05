@@ -1,0 +1,837 @@
+{
+  "PLMS_BROWSE": {
+    "queryString": {
+      "learningSource": "PrecisionLMS,IoTU",
+      "resultSize": "^[0-9]+$",
+      "resultOffset": "^[0-9]+$",
+      "language": "[a-z]+",
+      "learningType": "ONLINE_COURSE,Tut,Sem",
+      "apiformat": "jsonp"
+    },
+    "content": {
+      "courses": {
+        "catalogId": ".*",
+        "contentType": "content_type.standard|content_type.custom|IoTUContent",
+        "learningItemId": "^[0-9]+$",
+        "products": "[\"a-zA-Z]",
+        "title": "[\"a-zA-Z]",
+        "versions": "(^[0-9]+$)|(^[0-9]+\\.?[0-9]+$)|Other|All",
+        "custom": "true|false",
+        "viewerLink": "^https.*viewer.*",
+        "createdBy": ".*",
+        "locked": "true|false",
+        "parents": {
+          "breadcrumbs": ".*",
+          "catalogId": ".*",
+          "custom": "true|false",
+          "desc": ".*",
+          "id": "^[0-9]+$",
+          "locked": "true|false",
+          "orgHasAccess": "true|false",
+          "title": ".*",
+          "type": "ONLINE_COURSE",
+          "url": "^https.*precisionlms.*",
+          "userCreated": "true|false"
+        },
+        "products": ".*",
+        "title": ".*",
+        "userCreated": "true|false",
+        "versions": ".*",
+        "viewerLink": "^https.*precisionlms.*|^https://www.iotu.com.*"
+      }
+    }
+  },
+  "BANNER_BROWSE": {
+    "queryString": {
+      "learningSource": "IoTU",
+      "resultSize": "5",
+      "resultOffset": "0",
+      "language": "en",
+      "apiformat": "jsonp",
+      "callback": "angular\\.callbacks\\._[0-9]+"
+    },
+    "content": {
+      "courses": {
+        "contentType": "IoTUContent",
+        "createdBy": "PTC Inc.|^$",
+        "custom": "false",
+        "description": ".*",
+        "title": ".*",
+        "viewerLink": "^https://www.iotu.com.*|^$",
+        "videoUrl": "^https://vimeo.com.*",
+        "locked": "false",
+        "thumbnailImage": ".*",
+        "type": ".*",
+        "thumbnail": ".*",
+        "instructor": ".*",
+        "parentDetails": ".*"
+      }
+    }
+  },
+  "LX_BANNER_LAUNCH": {
+    "queryString": {
+      "learningSource": "NextGenLMS",
+      "resultSize": "5",
+      "resultOffset": "0",
+      "language": "en",
+      "apiformat": "jsonp",
+      "callback": "angular\\.callbacks\\._[0-9]+"
+    },
+    "content": {
+      "courses": {
+        "contentType": "NextGenLMSContent",
+        "createdBy": "^$",
+        "custom": "false",
+        "description": ".*",
+        "title": ".*",
+        "viewerLink": "^$",
+        "locked": "false",
+        "type": ".*",
+        "thumbnail": ".*",
+        "thumbnailImage": {
+          "name": ".*",
+          "source": "^https.*"
+        },
+        "courseId": ".*",
+        "instructor": "{.*}",
+        "courseInclusions": ".*",
+        "parentDetails": "{.*}"
+      }
+    }
+  },
+  "PLMS_SEARCH": {
+    "queryString": {
+      "keyword": "[\"a-zA-Z]+",
+      "numCourses": "^[0-9]+$",
+      "numTopics": "^[0-9]+$",
+      "courseOffset": "^[0-9]+$|undefined",
+      "apiformat": "jsonp",
+      "callback": "angular\\.callbacks\\._[0-9]+",
+      "v": "^[0-9]+$"
+    },
+    "content": {
+      "courses": {
+        "contentType": ".*",
+        "description": ".*",
+        "learningItemId": "^[0-9]+$",
+        "products": "[\"a-zA-Z]",
+        "title": "[\"a-zA-Z]",
+        "versions": "(^[0-9]+$)|Other|All|(^[0-9]+\\.?[0-9]+$)",
+        "custom": "true|false",
+        "createdBy": ".*",
+        "topics": {
+          "contentType": ".*",
+          "learningItemId": "^[0-9]+$",
+          "products": "[\"a-zA-Z]",
+          "title": "[\"a-zA-Z]",
+          "versions": "(^[0-9]+$)|(.*[0-9]+\\.?[0-9]+$)|All|Other",
+          "learningItemMappingId": "^[0-9]+$",
+          "viewerLink": "^https.*viewer.*",
+          "createdBy": ".*"
+        },
+        "viewerLink": "^https.*viewer.*"
+      },
+      "facets": {
+        "productList": "[a-zA-Z]+",
+        "versionList": "(^[0-9]+$)|(^[0-9]+\\.?[0-9]+$)|Other|All",
+        "courseTypes": ".*",
+        "contentTypes": "content_type.standard|content_type.custom",
+        "createdByList": {
+          "createdBy": ".*"
+        }
+      }
+    }
+  },
+  "FEDERATED_SEARCH": {
+    "queryString": {
+      "docsource": "HC,TA|HC,TA,CM",
+      "offset": "^[0-9]+$",
+      "doccount": "^[0-9]+$",
+      "keywords": "[\"a-zA-Z]+",
+      "lang": "[a-zA-Z]+",
+      "sourceapp": "[a-zA-Z0-9%]+",
+      "apiformat": "jsonp",
+      "callback": "angular\\.callbacks\\._[0-9]+",
+      "englishresult": "Y|N",
+      "uid": "[a-z]+",
+      "v": "^[0-9]+$",
+      "product": "[a-zA-Z0-9%]+",
+      "prodfamily": "[a-zA-Z0-9%]+",
+      "release": "[a-zA-Z0-9%]+"
+    },
+    "content": {
+      "Help Center Count": "^[0-9]+$",
+      "Help CenterDocs": {
+        "LastModifiedDate": "[0-9ZT\\-.:]+",
+        "ProductFamily": "[a-zA-Z/&;]+",
+        "Description": "^$",
+        "Technical_Area": "^$",
+        "Metadata": "^$",
+        "Title": ".*",
+        "Product": "[a-zA-Z;/]+",
+        "Document_Number": "^[A-Z0-9]+$|^$",
+        "Document_Type": "Help Center",
+        "Url": "^https://support.*.ptc.com/help/|https://support.*.ptc.com/cs/help*",
+        "Document_Ratings": "^[0-9]+$|^$",
+        "Language": "[a-z]+",
+        "Document_Replies": "^[0-9]+$|^$",
+        "Document_Views": "^[0-9]+$|^$",
+        "Release": "^[0-9]+(\\.[0-9]+){1,}(;[0-9]+(\\.[0-9]+){1,}){0,}$|^$",
+        "Document_Likes": "^[0-9]+$|^$"
+      },
+      "TS Articles Count": "^[0-9]+$",
+      "TS ArticlesDocs": {
+        "LastModifiedDate": "[0-9ZT\\-.:]+",
+        "ProductFamily": "[a-zA-Z/&;]+",
+        "Description": ".*",
+        "Technical_Area": ".*",
+        "Metadata": "^$",
+        "Title": ".*",
+        "Product": "[a-zA-Z;/]+",
+        "Document_Number": "^CS[0-9]+$",
+        "Document_Type": "Article",
+        "Url": "^https://support.*.ptc.com/apps/solution_preview/search/predestination\\?sourceapp=Learning[\\s]Connector&queryid=[0-9]+.*[0-9]+",
+        "Document_Ratings": "^[0-9]+$|^$",
+        "Language": "[a-z]+",
+        "Document_Replies": "^[0-9]+$|^$",
+        "Document_Views": "^[0-9]+$|^$",
+        "Release": ".*",
+        "Document_Likes": "^[0-9]+$|^$"
+      },
+      "Community Count": "^[0-9]+$",
+      "CommunityDocs": {
+        "LastModifiedDate": "[0-9ZT\\-.:]+",
+        "ProductFamily": "[a-zA-Z/&;]+",
+        "Description": ".*",
+        "Technical_Area": ".*",
+        "Metadata": "^$",
+        "Title": ".*",
+        "Product": "[a-zA-Z;/]+|^$",
+        "Document_Number": "^msg[0-9]+$|^[0-9]+$",
+        "Document_Type": "Community Document|Community Forum|Community Idea|^$",
+        "Url": "^https://support.*.ptc.com/apps/solution_preview/search/predestination\\?sourceapp=Learning[\\s]Connector&queryid=[0-9]+.*[0-9]+",
+        "Document_Ratings": "^[0-9]+$|^$",
+        "Language": "[a-z]+",
+        "Document_Replies": "^[0-9]+$|^$",
+        "Document_Views": "^[0-9]+$|^$",
+        "Release": "^[0-9]+\\.[0-9]+$|^$",
+        "Document_Likes": "^[0-9]+$|^$"
+      }
+    }
+  },
+  "FEDERATED_HC_BROWSE": {
+    "queryString": {
+      "docsource": "HC",
+      "offset": "^[0-9]+$",
+      "doccount": "^[0-9]+$",
+      "keywords": "\\*",
+      "lang": "[a-zA-Z]+",
+      "sourceapp": "[a-zA-Z0-9%]+",
+      "apiformat": "jsonp",
+      "callback": "angular\\.callbacks\\._[0-9]+",
+      "englishresult": "Y|N",
+      "uid": "[a-z]+",
+      "v": "^[0-9]+$",
+      "product": "[a-zA-Z0-9%]+",
+      "prodfamily": "[a-zA-Z0-9%]+",
+      "release": "[a-zA-Z0-9%]+"
+    },
+    "content": {
+      "Help Center Count": "^[0-9]+$",
+      "Help CenterDocs": {
+        "LastModifiedDate": "[0-9ZT\\-.:]+",
+        "ProductFamily": "[a-zA-Z/&;]+",
+        "Description": "^$",
+        "Technical_Area": "^$",
+        "Metadata": "^$",
+        "Title": ".*",
+        "Product": "[a-zA-Z;/]+",
+        "Document_Number": "^[A-Z0-9]+$|^$",
+        "Document_Type": "Help Center",
+        "Url": "^https://support.*.ptc.com/apps/solution_preview/search/predestination\\?sourceapp=Learning[\\s]Connector&queryid=[0-9]+.*html",
+        "Document_Ratings": "^[0-9]+$|^$",
+        "Language": "[a-z]+",
+        "Document_Replies": "^[0-9]+$|^$",
+        "Document_Views": "^[0-9]+$|^$",
+        "Release": "^[0-9]+(\\.[0-9]+){1,}(;[0-9]+(\\.[0-9]+){1,}){0,}$|^$",
+        "Document_Likes": "^[0-9]+$|^$"
+      }
+    }
+  },
+  "FEDERATED_TA_BROWSE": {
+    "queryString": {
+      "docsource": "TA",
+      "offset": "^[0-9]+$",
+      "doccount": "^[0-9]+$",
+      "keywords": "\\*",
+      "lang": "[a-zA-Z]+",
+      "sourceapp": "[a-zA-Z0-9%]+",
+      "apiformat": "jsonp",
+      "callback": "angular\\.callbacks\\._[0-9]+",
+      "englishresult": "Y|N",
+      "uid": "[a-z]+",
+      "v": "^[0-9]+$",
+      "product": "[a-zA-Z0-9%]+",
+      "prodfamily": "[a-zA-Z0-9%]+",
+      "release": "[a-zA-Z0-9%]+"
+    },
+    "content": {
+      "TS Articles Count": "^[0-9]+$",
+      "TS ArticlesDocs": {
+        "LastModifiedDate": "[0-9ZT\\-.:]+",
+        "ProductFamily": "[a-zA-Z/&;]+",
+        "Description": ".*",
+        "Technical_Area": ".*",
+        "Metadata": "^$",
+        "Title": ".*",
+        "Product": "[a-zA-Z;/]+",
+        "Document_Number": "^CS[0-9]+$",
+        "Document_Type": "Article",
+        "Url": "^https://support.*.ptc.com/apps/solution_preview/search/predestination\\?sourceapp=Learning[\\s]Connector&queryid=[0-9]+.*[0-9]+",
+        "Document_Ratings": "^[0-9]+$|^$",
+        "Language": "[a-z]+",
+        "Document_Replies": "^[0-9]+$|^$",
+        "Document_Views": "^[0-9]+$|^$",
+        "Release": ".*",
+        "Document_Likes": "^[0-9]+$|^$"
+      }
+    }
+  },
+  "UNIFIED_TUTORIAL_TOPIC_SEARCH": {
+    "queryString": {
+      "learningSource": "LearningExchange",
+      "searchTerm": ".*",
+      "productFilter": ".*",
+      "resultSize": "^[0-9]+$",
+      "resultOffset": "^[0-9]+$",
+      "language": ".*",
+      "learningType": "Text,Video",
+      "contentType": "Tutorials",
+      "apiformat": "jsonp"
+    },
+    "content": {
+      "courses": {
+        "catalogId": ".*",
+        "contentType": "Tutorials|HTML_TOPIC",
+        "learningItemId": "^[0-9]+$",
+        "products": ".*",
+        "title": "[\"a-zA-Z]",
+        "learning_object": {
+          "id": "^[0-9]+$",
+          "locale": ".*",
+          "contentType": "Tutorials",
+          "type": "Text|Video",
+          "originalJson": {
+            "tutorial": {
+              "id": "^[0-9]+$",
+              "mosaicHtmlFile": "^https.*\/index.htm",
+              "difficulty": "Introductory|Intermediate|Advanced",
+              "author": {
+                "firstName": "[a-zA-Z]+",
+                "lastName": "[a-zA-Z]+",
+                "role": "[a-zA-Z]+",
+                "company": ".*",
+                "email": "^\\w+@[a-zA-Z_]+?\\.[a-zA-Z]{2,3}$"
+              },
+              "title": ".*",
+              "description": ".*",
+              "sourceType": "PTC_Submitted|Partner_Submitted|PTCU_Standard|PTCU_Adoption_Video|PTC_Test",
+              "connection": {
+                "_comment": "putting .* bcoz lex return random data like URL contains http, https or text or garbage value",
+                "connectionEstoreUrl": ".*",
+                "connectionWbtUrl": ".*",
+                "connectionCourse": ".*",
+                "connectionExternalUrl": ".*"
+              },
+              "thumbnails": ".*",
+              "videoType": "Tutorials",
+              "classification": {
+                "productFamily": ".*",
+                "product": ".*",
+                "productVersion": ".*",
+                "model": "Tutorial"
+              },
+              "tutorialType": "Text|Video",
+              "language": ".*",
+              "viewCount": "^[0-9]+$",
+              "new": "true|false"
+            }
+          }
+        },
+        "parents": {
+          "catalogId": ".*",
+          "id": "^[0-9]+$",
+          "title": ".*",
+          "desc": ".*",
+          "url": "^https.*precisionlms.*",
+          "type": "ONLINE_COURSE|DIGITAL_GUIDE",
+          "userCreated": "true|false",
+          "custom": "true|false",
+          "breadCrumbs": ".*",
+          "orgHasAccess": "true|false",
+          "locked": "true|false"
+        },
+        "locked": "true|false"
+      }
+    }
+  },
+  "UNIFIED_TUTORIAL_TOPIC": {
+    "queryString": {
+      "learningSource": "LearningExchange",
+      "productFilter": ".*",
+      "resultSize": "^[0-9]+$",
+      "resultOffset": "^[0-9]+$",
+      "language": ".*",
+      "learningType": "Text,Video",
+      "contentType": "Tutorials",
+      "apiformat": "jsonp"
+    },
+    "content": {
+      "courses": {
+        "catalogId": ".*",
+        "contentType": "Tutorials|HTML_TOPIC",
+        "learningItemId": "^[0-9]+$",
+        "products": ".*",
+        "title": "[\"a-zA-Z]",
+        "learning_object": {
+          "id": "^[0-9]+$",
+          "locale": ".*",
+          "contentType": "Tutorials",
+          "type": "Text|Video",
+          "originalJson": {
+            "tutorial": {
+              "id": "^[0-9]+$",
+              "mosaicHtmlFile": "^https.*\/index.htm",
+              "difficulty": "Introductory|Intermediate|Advanced",
+              "author": {
+                "firstName": "[a-zA-Z]+",
+                "lastName": "[a-zA-Z]+",
+                "role": "[a-zA-Z]+",
+                "company": ".*",
+                "email": "^\\w+@[a-zA-Z_]+?\\.[a-zA-Z]{2,3}$"
+              },
+              "title": ".*",
+              "description": ".*",
+              "sourceType": "PTC_Submitted|Partner_Submitted|PTCU_Standard|PTCU_Adoption_Video|PTC_Test",
+              "connection": {
+                "_comment": "putting .* bcoz lex return random data like URL contains http, https or text or garbage value",
+                "connectionEstoreUrl": ".*",
+                "connectionWbtUrl": ".*",
+                "connectionCourse": ".*",
+                "connectionExternalUrl": ".*"
+              },
+              "thumbnails": ".*",
+              "videoType": "Tutorials",
+              "classification": {
+                "productFamily": ".*",
+                "product": ".*",
+                "productVersion": ".*",
+                "model": "Tutorial"
+              },
+              "tutorialType": "Text|Video",
+              "language": ".*",
+              "viewCount": "^[0-9]+$",
+              "new": "true|false"
+            }
+          }
+        },
+        "parents": {
+          "catalogId": ".*",
+          "id": "^[0-9]+$",
+          "title": ".*",
+          "desc": ".*",
+          "url": "^https.*precisionlms.*",
+          "type": "ONLINE_COURSE",
+          "userCreated": "true|false",
+          "custom": "true|false",
+          "breadCrumbs": ".*",
+          "orgHasAccess": "true|false",
+          "locked": "true|false"
+        },
+        "locked": "true|false"
+      }
+    }
+  },
+  "FEDERATED_LEX_USE_CASE": {
+    "queryString": {
+      "docsource": "[,A-Z]+",
+      "offset": "^[0-9]+$",
+      "doccount": "^[0-9]+$",
+      "keywords": "[\"a-zA-Z]+|\\*",
+      "lang": "[a-zA-Z]+",
+      "sourceapp": "[a-zA-Z0-9%]+",
+      "apiformat": "jsonp",
+      "callback": "angular\\.callbacks\\._[a-z0-9]+",
+      "englishresult": "Y|N",
+      "technicalarea": "Use Case,Talks",
+      "uid": "[a-z]+",
+      "v": "^[0-9]+$",
+      "product": "[a-zA-Z0-9%]+",
+      "prodfamily": "[a-zA-Z0-9%]+",
+      "release": "[a-zA-Z0-9%]+"
+    },
+    "content": {
+      "Learning Exchange Count": "^[0-9]+$",
+      "Learning ExchangeDocs": {
+        "LastModifiedDate": "[0-9ZT\\-.:]+",
+        "ProductFamily": "[a-zA-Z/&;]+",
+        "Description": ".*",
+        "Technical_Area": "Talks|Use Case",
+        "Metadata": {
+          "tutorial": {
+            "featured": "[a-zA-Z]+",
+            "keywords": "[a-zA-Z,]+",
+            "link": "^https.*",
+            "rating": "[0-9]+",
+            "description": ".*",
+            "language": "[a-z]+",
+            "likeCount": "[0-9]+",
+            "title": ".*",
+            "objective": ".*",
+            "externallyAvailable": "false|true",
+            "modified": "[0-9:-UTC]+",
+            "connection": {
+              "connectionEstoreUrl": "^https.*|^$",
+              "connectionWbtUrl": "^https.*|^$",
+              "connectionCourse": ".*|^$",
+              "connectionExternalUrl": "^https.*|^$"
+            },
+            "id": "^[0-9]+$",
+            "viewCount": "^[0-9]+$",
+            "slug": "[a-z-]+",
+            "thumbnail": "^https.*",
+            "adminKeywords": ".*",
+            "videoType": "Talks|Use Case",
+            "created": "[0-9-:UTC]+",
+            "author": {
+              "firstName": "[a-zA-Z]+",
+              "lastName": "[a-zA-Z]+",
+              "role": "[a-zA-Z]+",
+              "company": ".*",
+              "email": "^\\w+@[a-zA-Z_]+?\\.[a-zA-Z]{2,3}$"
+            },
+            "videoTutorialLink": "^https.*video.mp4$",
+            "isNew": "false|true",
+            "ratingCount": "^[0-9]+$",
+            "classification": {
+              "productFamily": ".*",
+              "product": ".*",
+              "productVersion": ".*",
+              "model": "Tutorial"
+            },
+            "difficulty": "Introductory|Intermediate|Advanced",
+            "videoDuration": "^[0-9]{1,2}(:[0-9]{1,2}){1,2}$|^$",
+            "mosaicHtmlFile": "^https.*",
+            "sourceType": "PTC_Submitted|Partner_Submitted|PTCU_Standard|PTCU_Adoption_Video|PTC_Test",
+            "mosaicXmlFile": "^https.*",
+            "status": "Approved"
+          }
+        },
+        "Title": ".*",
+        "Product": "[a-zA-Z;/]+|^$",
+        "Document_Number": ".*",
+        "Document_Type": ".*",
+        "Url": "^https.*",
+        "Document_Ratings": "^[0-9]+$|^$",
+        "Language": "[a-z]+",
+        "Document_Replies": "^[0-9]+$|^$",
+        "Document_Views": "^[0-9]+$|^$",
+        "Release": "^[0-9]+(\\.[0-9]+)?(;[0-9]+(\\.[0-9]+)?)*$|^$",
+        "Document_Likes": "^[0-9]+$|^$"
+      }
+    }
+  },
+  "ORG_PREF": {
+    "queryString": {
+      "apiformat": "jsonp",
+      "callback": "JSON_CALLBACK"
+    },
+    "content": ".*"
+  },
+  "SYS_MSG_GET": {
+    "queryString": {
+      "product": "^[a-zA-Z]+$",
+      "version": "^[0-9]+\\.[0-9]+$|^$",
+      "command": ".*",
+      "locale": "en|it|ru|ja|it-CH|es|pt_BR|de"
+    },
+    "content": {
+      "map": {
+        "": {
+          "id": "^[0-9]+$",
+          "active": "true|false",
+          "title": ".*",
+          "lastModifiedDate": "^[0-9]{4}\\-[0-9]{2}\\-[0-9]{2}$",
+          "onAllContext": "true|false",
+          "onAllNamespace": "true|false",
+          "namespace": ".*",
+          "context": ".*",
+          "locale": "en|it|ru|ja|it-CH|es|pt_BR|de",
+          "message": ".*"
+        }
+      },
+      "namespaces": {
+        "product": "^[a-zA-Z]+$",
+        "version": "^[0-9]+\\.[0-9]+$|^$",
+        "productVersion": ".*"
+      }
+    }
+  },
+  "SYS_MSG_SAVE": {
+    "content": {
+      "map": {
+        "": {
+          "active": "true|false",
+          "id": "^[0-9]+$",
+          "lastModifiedDate": "^[0-9]{4}\\-[0-9]{2}\\-[0-9]{2}$",
+          "localizedMessages": {
+            "id": "^[0-9]+$",
+            "localeCode": "en|it|ru|ja|it-CH|es|pt_BR|de",
+            "localizedString": ".*"
+          },
+          "messageContexts": {
+            "id": "^[0-9]+$",
+            "msgContext": ".*"
+          },
+          "messageNamespaces": {
+            "id": "^[0-9]+$",
+            "msgNamespaces": ".*"
+          },
+          "onAllContext": "true|false",
+          "onAllNamespace": "true|false",
+          "title": ".*"
+        }
+      },
+      "namespaces": {
+        "product": "^[a-zA-Z_]+( [a-zA-Z_]+)*$",
+        "version": "^(\\d+)(?:\\.(\\d+))*$",
+        "productVersion": ".*"
+      }
+    }
+  },
+  "SYS_MSG_EDIT": {
+    "content": {
+      "map": {
+        "": {
+          "id": "^[0-9]+$",
+          "active": "true|false",
+          "title": ".*",
+          "lastModifiedDate": "^[0-9]{4}\\-[0-9]{2}\\-[0-9]{2}$",
+          "onAllContext": "true|false",
+          "onAllNamespace": "true|false",
+          "namespace": ".*",
+          "context": ".*",
+          "locale": "en|it|ru|ja|it-CH|es|pt_BR|de",
+          "message": ".*"
+        }
+      },
+      "namespaces": {
+        "product": "^[a-zA-Z]+$",
+        "version": "^[0-9]+\\.[0-9]+$|^$",
+        "productVersion": ".*"
+      }
+    }
+  },
+  "SYS_MSG_DELETE": {
+    "content": {
+      "map": {},
+      "namespaces": {
+        "product": "^[a-zA-Z]+$",
+        "version": "^[0-9]+\\.[0-9]+$|^$",
+        "productVersion": ".*"
+      }
+    }
+  },
+  "RECOMMENDATION": {
+    "queryString": {
+      "lcContext": "^[a-zA-Z/]+$",
+      "apiformat": "jsonp",
+      "callback": "angular.callbacks._[0-9]+",
+      "v": "^[0-9]+$"
+    },
+    "content": {
+      "courses": {
+        "createdBy": ".*",
+        "custom": "false|true",
+        "learningItemId": "^[0-9]+$",
+        "products": ".*",
+        "title": ".*",
+        "topics": {
+          "learningItemId": "^[0-9]+$",
+          "learningItemMappingId": "^[0-9]+$",
+          "title": ".*",
+          "viewerLink": "^https.*"
+        },
+        "versions": "(.*[0-9]+\\.?[0-9]+$)|All|Other"
+      },
+      "title": ".*"
+    }
+  },
+  "PLMS_RECOMMENDATION": {
+    "queryString": {
+      "lcContext": "^[a-zA-Z/]+$",
+      "apiformat": "jsonp",
+      "callback": "angular.callbacks._[0-9]+",
+      "v": "^[0-9]+$"
+    },
+    "content": {
+      "courses": {
+        "createdBy": ".*",
+        "custom": "false|true",
+        "learningItemId": "^[0-9]+$",
+        "products": ".*",
+        "title": ".*",
+        "topics": {
+          "learningItemId": "^[0-9]+$",
+          "learningItemMappingId": "^[0-9]+$",
+          "title": ".*",
+          "viewerLink": "^https.*"
+        },
+        "versions": "(.*[0-9]+\\.?[0-9]+$)|(.*[0-9]+$)|All|Other"
+      },
+      "resolvedMappingTag":{
+        "alias":"true|false",
+        "namespace":".*",
+        "title":".*",
+        "value":".*"
+      }
+    }
+  },
+  "THINGWORX_RECOMMENDATION": {
+    "queryString": {
+      "lcContext": "^[a-zA-Z/]+$",
+      "apiformat": "jsonp",
+      "callback": "angular.callbacks._[0-9]+",
+      "v": "^[0-9]+$"
+    },
+    "content": {
+      "courses": {
+        "createdBy": ".*",
+        "custom": "false|true",
+        "learningItemId": "^[0-9]+$",
+        "products": ".*",
+        "title": ".*",
+        "topics": {
+          "learningItemId": "^[0-9]+$",
+          "learningItemMappingId": "^[0-9]+$",
+          "title": ".*",
+          "viewerLink": "^https.*"
+        },
+        "versions": "^[0-9]+$|All|Other"
+      },
+      "resolvedMappingTag": {
+        "alias": "false|true",
+        "namespace": ".*:[0-9]{1}",
+        "title": ".*",
+        "value": ".*"
+      }
+    }
+  },
+  "MAPPING_TITLE": {
+    "queryString": {
+      "lcContext": "^[a-zA-Z/]+$",
+      "apiformat": "jsonp",
+      "callback": "angular_callback._[0-9]+",
+      "v": "^[0-9]+$"
+    },
+    "content": ".*"
+  },
+  "MAPPING_DELETION": {
+    "queryString": {
+      "apiformat": "jsonp",
+      "callback": "JSON_CALLBACK",
+      "userToken": ".*",
+      "v": "^[0-9]+$"
+    },
+    "content": {
+      "courses": {
+        "createdBy": ".*",
+        "custom": "false|true",
+        "learningItemId": "^[0-9]+$",
+        "products": ".*",
+        "title": ".*",
+        "topics": {
+          "learningItemId": "^[0-9]+$",
+          "learningItemMappingId": "^[0-9]+$",
+          "title": ".*",
+          "viewerLink": "^https.*"
+        },
+        "versions": "(.*[0-9]+\\.?[0-9]+$)|All|Other"
+      },
+      "title": ".*"
+    }
+  },
+  "ILE_COURSE": {
+    "queryString": {
+      "classId": "172"
+    },
+    "content": {
+      "parentDetails": {
+        "tpId": "^[0-9]+$",
+        "code": "^[a-zA-Z-0-9]+[0-9]*$",
+        "title": ".*"
+      },
+      "metaData": {
+        "videoLinkThumb": "^https.*cloudfront.net.*tutorials.*png",
+        "instructor": {
+          "email": "^\\w+@[a-zA-Z_]+?\\.[a-zA-Z]{2,3}$"
+        },
+        "syllabus": ".*"
+      },
+      "instructorGuided": {
+        "iltClass": []
+      },
+      "independentLearnings": {
+        "courseId": "^[0-9]+$",
+        "ileClass": {
+          "launchDetails": {
+            "learnerLaunchURL": "^https.*lms-content.*SCORMDriver.*.html",
+            "launchable": "false|true"
+          },
+          "courseDetails": ".*",
+          "title": ".*",
+          "classId": "^[0-9]+$",
+          "classcode": "^[a-zA-Z-0-9]+[0-9]*$",
+          "freeContent": "false|true"
+        }
+      }
+    }
+  },
+  "ADS_TUTORIAL":{
+    "queryString": {
+      "family": "[\"a-zA-Z]",
+      "product": "[\"a-zA-Z]",
+      "language": "[a-z]+",
+      "page": "[\"a-zA-Z]",
+      "apiformat": "jsonp"
+    },
+    "content":{
+      "adId" : "^(?!\/d+$)(?:[a-zA-Z0-9][a-zA-Z0-9 _.\/&!@#+,$-]*)?$",
+      "adType" : "top|bottom|side|inline",
+      "cta" : "^(?!\/d+$)(?:[a-zA-Z0-9][a-zA-Z0-9 _.\/&!@#+,$-]*)?$",
+      "description" : "^(?!\/d+$)(?:[a-zA-Z0-9][a-zA-Z0-9 _.\/&!@#+,$-]*)?$",
+      "endTime" :   {
+        "date" : {
+          "type": "string",
+          "format": "date"
+        },
+        "timezone"  : "UTC",
+        "timezone_type" : "3"
+      },
+      "hoverText" : "^(?!\/d+$)(?:[a-zA-Z0-9][a-zA-Z0-9 _.\/&!@#+,$-]*)?$",
+      "id" : "^[0-9]+$",
+      "linkedUrl" : "[(http)(https)].*",
+      "page" : "home|browse|tutorial|search",
+      "startTime" : {
+        "date" : {
+          "type": "string",
+          "format": "date"
+        },
+        "timezone"  : "UTC",
+        "timezone_type" : "3"
+      },
+      "subtitle" : "^[a-zA-Z0-9!@#$%^&*()_+\\-=\\[\\]{};':\"\\\\|,.<>\\/?]*$",
+      "title" : "^[a-zA-Z0-9!@#$%^&*()_+\\-=\\[\\]{};':\"\\\\|, .<>\\/?]*$"
+    }
+  }
+}

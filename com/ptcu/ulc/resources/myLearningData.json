@@ -1,0 +1,23 @@
+{
+  "learningTypes" :
+  {
+    "eLearningCourse" : {
+        "name" : "Finite Element Analysis Using Creo Simulate 3.0",
+        "type" : "eLearning course",
+        "Product Category" : "Creo Simulate",
+        "Product Version" : "3.0"
+    },
+    "assessment" :{
+      "name" : "Course Assessment - Creating an E-book",
+      "type" : "Assessment",
+      "Product Category" : "Windchill PDMLink",
+      "Product Version" : "9.0"
+    },
+    "learningPath" :{
+
+    },
+    "DigitalGuides" :{
+
+    }
+  }
+}

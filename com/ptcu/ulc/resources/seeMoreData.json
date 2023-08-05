@@ -1,0 +1,34 @@
+{
+  "productFamily":[
+    "PLM Software",
+    "CAD Software",
+    "Internet of Things"
+  ],
+  "familyToBrowse": [
+    "Windchill",
+    "Creo",
+    "ThingWorx",
+    "Integrity"
+  ],
+  "productToBrowse": [
+    "Creo Parametric",
+    "ThingWorx",
+    "Creo View",
+    "ThingWorx Platform",
+    "Windchill Process Director (Integrity Process Director)"
+  ],
+  "seeMorePageFamily": [
+    "All Windchill",
+    "All ThingWorx",
+    "All Products"
+  ],
+  "contentType": [
+    "Tutorials",
+    "Courses",
+    "Knowledge Base Articles",
+    "Help Center Documents"
+  ],
+  "contentLanguage": [
+    "English"
+  ]
+}

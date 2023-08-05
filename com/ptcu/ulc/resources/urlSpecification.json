@@ -1,0 +1,19 @@
+{
+  "urlPath":
+  {
+    "spotlight":{
+      "family":["windchill","thingworx","creo"],
+      "product":["all","PDMLink"],
+      "contentLocale":["contentLocale=en","contentLocale=fr"],
+      "version":["version=all","version=latest"]
+    },
+    "seemore":{
+      "family":["windchill","thingworx","creo"],
+      "product":["all","PDMLink"],
+      "version":["version=all","version=latest"],
+      "contentType":["contentType=tutorials","contentType=elearning","contentType=kb","contentType=hc","contentType=cm"],
+      "technicalArea":["technicalArea=Tutorials"]
+    }
+
+  }
+}

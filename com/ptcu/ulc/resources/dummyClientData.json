@@ -1,0 +1,29 @@
+{
+  "Prod": [
+    "Thingworx Composer"
+  ],
+  "Version": [
+    "6.5"
+  ],
+  "VersionForFallback": [
+    "7.0"
+  ],
+  "VersionForConsolidation": [
+    "6.5"
+  ],
+  "locale": [
+    "en"
+  ],
+  "localeJA": [
+    "ja"
+  ],
+  "localeRU": [
+    "ru"
+  ],
+  "ProdWC": [
+    "Windchill"
+  ],
+  "VersionWC": [
+    "11.0"
+  ]
+}

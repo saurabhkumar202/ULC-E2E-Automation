@@ -1,0 +1,1724 @@
+{
+  "pageObjects": {
+    "header_footer": {
+      "lnkHome": {
+        "method": "css",
+        "value": "nav.headerTemplate>h1 [title='Home']"
+      },
+      "aboutLink": {
+        "method": "linkText",
+        "value": "About Learning Connector"
+      },
+      "headerSearchBar": {
+        "method": "id",
+        "value": "mainSearchInput"
+      },
+      "SignInLink": {
+        "method": "id",
+        "value": "signInAction"
+      },
+      "browseContentButton": {
+        "method": "id",
+        "value": "browseContentButton"
+      },
+      "product": {
+        "method": "linkText",
+        "value": "Creo Parametric"
+      },
+      "lnkSignOut": {
+        "method": "css",
+        "value": "#myAccountDropdown > li:nth-child(2) > a"
+      }
+    },
+    "signInWindow": {
+      "loginForm": {
+        "method": "id",
+        "value": "signInAction"
+      },
+      "loginWindow": {
+        "method": "css",
+        "value": "md-dialog .loginLayout"
+      },
+      "btnCloseSignInform": {
+        "method": "css",
+        "value": ".loginLayout .closeModal"
+      },
+      "userName": {
+        "method": "id",
+        "value": "lgUsername"
+      },
+      "password": {
+        "method": "id",
+        "value": "lgPassword"
+      },
+      "signInSubmit": {
+        "method": "id",
+        "value": "loginSubmit"
+      },
+      "lnkForgotPassword": {
+        "method": "css",
+        "value": ".forgotPassword"
+      },
+      "lnkSignUp": {
+        "method": "css",
+        "value": ".loginLayout .signUpAction"
+      },
+      "lnkExploreLC": {
+        "method": "linkText",
+        "value": "Explore Learning Connector"
+      },
+      "modalOnBoarding": {
+        "method": "css",
+        "value": "#wizard"
+      },
+      "btnCloseModal": {
+        "method": "css",
+        "value": ".closeModal"
+      },
+      "modalHeader1": {
+        "method": "xpath",
+        "value": ".//*[@id='wizard']/div/div/section[1]/h2"
+      },
+      "modalHeader2": {
+        "method": "xpath",
+        "value": ".//*[@id='wizard']/div/div/section[2]/h2"
+      },
+      "modalHeader3": {
+        "method": "xpath",
+        "value": ".//*[@id='wizard']/div/div/section[3]/h2"
+      },
+      "btnNext1st": {
+        "method": "xpath",
+        "value": ".//*[@id='wizard']/div/div/section[1]/fieldset/button"
+      },
+      "btnNext2nd": {
+        "method": "xpath",
+        "value": ".//*[@id='wizard']/div/div/section[2]/fieldset/button[2]"
+      },
+      "btnBack1st": {
+        "method": "xpath",
+        "value": ".//*[@id='wizard']/div/div/section[2]/fieldset/button[1]"
+      },
+      "btnBack2nd": {
+        "method": "xpath",
+        "value": ".//*[@id='wizard']/div/div/section[3]/fieldset/button[1]"
+      },
+      "btnClose": {
+        "method": "xpath",
+        "value": "//*[@id='wizard']/div/div/section[3]/fieldset/button[2]"
+      }
+    },
+    "myEnrollment": {
+      "myLearningLabel": {
+        "method": "css",
+        "value": "#mainContent h1[title='My Learning']"
+      },
+      "enrollmentTabLearningItemTitles": {
+        "method": "css",
+        "value": ".enrollmentMain h4"
+      },
+      "enrollmentsLearning": {
+        "method": "linkText",
+        "value": "Enrollments"
+      },
+      "completedLearning": {
+        "method": "linkText",
+        "value": "Completed"
+      },
+      "MarkComplete": {
+        "method": "linkText",
+        "value": "Mark Complete"
+      },
+      "CloseCourseViwer": {
+        "method": "linkText",
+        "value": "Mark complete and close the course viewer"
+      },
+      "startOrResumeAssessmentBtn": {
+        "method": "css",
+        "value": ".ccButtonBar .primary span"
+      },
+      "submitAssessment": {
+        "method": "css",
+        "value": ".assessSubmit span"
+      },
+      "confirmSubmission": {
+        "method": "css",
+        "value": ".confirmationModal .primary span"
+      }
+    },
+    "landing": {
+      "browseContent": {
+        "method": "id",
+        "value": "mainHeader"
+      },
+      "myLearning": {
+        "method": "css",
+        "value": "#myAccountDropdown li:nth-child(1) a"
+      },
+      "browseButton": {
+        "method": "xpath",
+        "value": ".//*[@id='browseContentBtn']"
+      },
+      "homeSearchBar": {
+        "method": "id",
+        "value": "mainSearchInput"
+      },
+      "homeSearchBarButton": {
+        "method": "xpath",
+        "value": ".//*[@title='Search']"
+      },
+      "productFamily": {
+        "method": "css",
+        "value": ".filter-options ul li"
+      },
+      "product1": {
+        "method": "css",
+        "value": ".filter-content ul li"
+      },
+      "LearningExperience": {
+        "method": "css",
+        "value": "#eLearningList > li > a > div.detail > h3"
+      },
+      "LearningExperienceDescription": {
+        "method": "css",
+        "value": "#eLearningList > li > a > div.detail > p"
+      },
+      "product": {
+        "method": "css",
+        "value": ".mainList li[aria-hidden='false']>a"
+      },
+      "firstProduct": {
+        "method": "xpath",
+        "value": ".//*[@id='ptcSegmentList']/li[2]/a"
+      },
+      "btnHomeSearchBar": {
+        "method": "id",
+        "value": "searchBtn"
+      },
+      "lnkUserAccount": {
+        "method": "css",
+        "value": "#myAccount a"
+      },
+      "lnkAdminSettings": {
+      "method": "css",
+      "value": "#myAccountDropdown > li:nth-child(1) > a"
+      },
+      "lnkILE": {
+        "method": "css",
+        "value": "h3[title='Creo Parametric Modeling Essentials: Core']"
+      },
+      "IoTUCourses": {
+        "method": "css",
+        "value": ".homepageIotuSwimlane li[title='Course']"
+      }
+    },
+    "administrativeSettingsPage": {
+      "lnkOrgPreference": {
+        "method": "css",
+        "value": "#mainContent ui-view section li.active a"
+      },
+      "selectedOrgOref": {
+        "method": "css",
+        "value": "input[checked='checked']"
+      },
+      "orgPrefBoth": {
+        "method": "id",
+        "value": "pref1"
+      },
+      "orgPrefHidePtcContent": {
+        "method": "id",
+        "value": "pref2"
+      },
+      "OrgPrefAlwaysHidePtcContent": {
+        "method": "id",
+        "value": "pref3"
+      },
+      "savebtn": {
+        "method": "id",
+        "value": "orgPrefSaveButton"
+      }
+    },
+    "resultsPage": {
+      "pageHeaderTitle": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/header/h1"
+      },
+      "headerCaseStudiesAndTalks": {
+        "method": "css",
+        "value": "section[technicalarea='Use Case'] h2"
+      },
+      "sectionCaseStudiesAndTalks": {
+        "method": "css",
+        "value": "section[technicalarea='Use Case']"
+      },
+      "listCaseStudiesAndTalks": {
+        "method": "css",
+        "value": "section[technicalarea='Use Case'] .videoItem"
+      },
+      "listCaseStudiesAndTalksonSeeMore": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/ui-view/section/div[@class='rightColumn']/section/ul/li[@class!='moreAction ng-hide']"
+      },
+      "lnkCaseStudiesAndTalksSeeMore": {
+        "method": "css",
+        "value": "section[technicalarea='Use Case'] .moreAction"
+      },
+      "headerTutorials": {
+        "method": "css",
+        "value": "section[technicalarea=Tutorials] h2"
+      },
+      "sectionTutorials": {
+        "method": "css",
+        "value": "section[technicalarea=Tutorials]"
+      },
+      "listTutorials": {
+        "method": "css",
+        "value": "section[technicalarea=Tutorials] > ul >li.videoItem, section[technicalarea=Tutorials] > ul >li.courseWithThumb"
+      },
+      "listTutorialsSeeMorePage": {
+        "method": "css",
+        "value": ".detail"
+      },
+      "lnkTutorialsSeeMore": {
+        "method": "css",
+        "value": "section[technicalarea=Tutorials] .moreAction"
+      },
+      "headerSelfPacedELearning": {
+        "method": "css",
+        "value": ".tutorialsMain[technicalarea='Tutorials'] h2"
+      },
+      "sectionSelfPacedELearning": {
+        "method": "css",
+        "value": ".learnCategory"
+      },
+      "listSelfPacedELearning": {
+        "method": "css",
+        "value": ".selfpacedItem"
+      },
+      "lnkSelfPacedELearningSeeMore": {
+        "method": "id",
+        "value": "gotoElearning"
+      },
+      "headerReferenceDocumentsAndKnowledgeBase": {
+        "method": "css",
+        "value": "div[source=KB] section h2"
+      },
+      "sectionReferenceDocumentsAndKnowledgeBase": {
+        "method": "css",
+        "value": "div[source=KB] section"
+      },
+      "listReferenceDocumentsAndKnowledgeBase": {
+        "method": "repeater",
+        "value": "data in lchckb.kbData"
+      },
+      "lnkReferenceDocumentsAndKnowledgeBaseSeeMore": {
+        "method": "id",
+        "value": "gotoKnowledgebase"
+      },
+      "headerHelpCenterDocuments": {
+        "method": "css",
+        "value": "div[source=HC] section h2"
+      },
+      "sectionHelpCenterDocuments": {
+        "method": "css",
+        "value": "div[source=HC] section"
+      },
+      "listHelpCenterDocuments": {
+        "method": "repeater",
+        "value": "data in lchckb.hcData"
+      },
+      "lnkHelpCenterDocumentsSeeMore": {
+        "method": "id",
+        "value": "gotoHelpCenter"
+      },
+      "browseProductList": {
+        "method": "class",
+        "value": "productList"
+      },
+      "browseCreo": {
+        "method": "linkText",
+        "value": "Creo"
+      },
+      "browseThingworx": {
+        "method": "linkText",
+        "value": "ThingWorx"
+      },
+      "titleBar": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/h1"
+      },
+      "homepageThingworx": {
+        "method": "xpath",
+        "value": ".//li[@class='productFamilyThingWorx']"
+      },
+      "firstCaseStudyResult": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/ui-view/section[1]/section/ul/li[1]/a/div[2]/h3"
+      },
+      "firstCaseStudyResultTitle": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/ui-view/section[1]/section/ul/li[1]/a/div[2]/h3"
+      },
+      "firstCaseStudyResultDescription": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/ui-view/section[1]/section/ul/li[1]/a/div[2]/p"
+      },
+      "firstSelfPacedLearningResult": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/ui-view/section[2]/section[2]/ul/li[1]/a/div/h3"
+      },
+      "noContentMessage": {
+        "method": "css",
+        "value": "#mainContent ui-view aside p"
+      },
+      "firstCaseStudy": {
+        "method": "css",
+        "value": "li[technical-area='Use Case']:nth-child(1)"
+      },
+      "firstTutorial": {
+        "method": "xpath",
+        "value": "//section[@technicalarea='Tutorials']/ul/li[contains(@title, 'Tutorial')][1]"
+      },
+      "firstTextTutorial": {
+        "method": "xpath",
+        "value": "//li[@title='Text Tutorial'][1]"
+      },
+      "firstElearning": {
+        "method": "css",
+        "value": ".selfPacedLearningLane .selfpacedItem:nth-of-type(1) h3"
+      },
+      "firstReferenceDocKB": {
+        "method": "css",
+        "value": "li[source='KB']:nth-child(1)"
+      },
+      "firstReferenceDocKBHref": {
+        "method": "xpath",
+        "value": " //*[@id='mainContent']/ui-view/span/section/div[1]/section/ul/li[1]/a"
+      },
+      "firstReferenceDocKBTitle": {
+        "method": "xpath",
+        "value": " //*[@id='mainContent']/ui-view/span/section/div[1]/section/ul/li[1]/a/div/h3"
+      },
+      "firstHCDoc": {
+        "method": "css",
+        "value": "li[source='HC']:nth-child(1)"
+      },
+      "firstCFDoc": {
+        "method": "css",
+        "value": "li[source='CM']:nth-child(1)"
+      },
+      "resultTitle": {
+        "method": "css",
+        "value": " .title"
+      },
+      "resultDescription": {
+        "method": "css",
+        "value": " .detailText"
+      },
+      "listTitleCaseStudiesAndTalks": {
+        "method": "css",
+        "value": "section[technicalarea='Use Case'] .title"
+      },
+      "listTitleTutorials": {
+        "method": "css",
+        "value": "section[technicalarea='Tutorials'] .title"
+      },
+      "listTitleSelfPacedELearning": {
+        "method": "css",
+        "value": "section[action='search.action'] .title"
+      },
+      "listTitletopics": {
+        "method": "css",
+        "value": ".tutorialsMain:nth-child(2) .title"
+      },
+      "listTitleReferenceDocumentsAndKnowledgeBase": {
+        "method": "css",
+        "value": "div[source='KB'] .title"
+      },
+      "listTitleHelpCenterDocuments": {
+        "method": "css",
+        "value": "div[source='HC'] .title"
+      }
+    },
+    "browseResultsPage": {
+      "firstTutorialTile": {
+        "method": "css",
+        "value": ".detail"
+      },
+      "productName": {
+        "method": "xpath",
+        "value": ".//*[@id='productVersionSwitcher']/form[1]/legend"
+      },
+      "productNameOnSeeMore": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/header/section/h1"
+      },
+      "productVersion": {
+        "method": "xpath",
+        "value": ".//*[@id='productVersionSwitcher']/form[2]/legend"
+      },
+      "contentLanguage": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/header/section/div[1]/form/legend"
+      },
+      "contentLanguageFR": {
+        "method": "xpath",
+        "value": ".//*[@id='fr']"
+      },
+      "contentLanguageKorean": {
+        "method": "xpath",
+        "value": ".//*[@id='ko']"
+      },
+      "contentLanguageEnglish": {
+        "method": "xpath",
+        "value": ".//*[@id='en']"
+      },
+      "contentLanguageIncludeEnglish": {
+        "method": "css",
+        "value": "#includeEng"
+      },
+      "versionDropDownselection": {
+        "method": "xpath",
+        "value": ".//*[@id='productVersionSwitcher']/form[2]/ul/li/label[contains(text(),'6.5')]"
+      },
+      "versionDropDownElementsList": {
+        "method": "xpath",
+        "value": ".//*[@id='productVersionSwitcher']/form[2]/ul/li"
+      },
+      "communityHelpMessage": {
+        "method": "css",
+        "value": ".forumItem"
+      },
+      "joinDiscussionButton": {
+        "method": "xpath",
+        "value": "//ui-view/aside[2]/div/a"
+      },
+      "productLabel": {
+        "method": "css",
+        "value": " .learnCategory>ul>li:nth-child(1) .productInformation>li"
+      },
+      "IoTUCourses": {
+        "method": "css",
+        "value": "#eLearningList li[title='Course']"
+      },
+      "IoTUCourseHeaderLink": {
+        "method": "css",
+        "value": ".logo-iotu"
+      },
+      "IoTUCourseHeaderInfo": {
+        "method": "css",
+        "value": ".bannerInfo>h2"
+      },
+      "IoTUCourseSwimLaneLabel": {
+        "method": "css",
+        "value": "section.listCategory.featuredBanner.ng-scope > p"
+      },
+      "IoTUCourseSwimLaneLink": {
+        "method": "css",
+        "value": "section.listCategory.featuredBanner.ng-scope h2 a"
+      },
+      "TutorialsSwimlaneLabel": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/ui-view/section[2]/section[1]/h2/a"
+      },
+      "TutorialsContents": {
+        "method": "xpath",
+        "value": ".//section[contains(@technicalarea,'Tutorials')]/ul/li[contains(@class, 'ng-scope')]"
+      },
+      "TutorialsSeeMore": {
+        "method": "xpath",
+        "value": ".//section[contains(@technicalarea,'Tutorials')]/ul/li[contains(@class, 'moreAction')]"
+      },
+      "TutorialsSwimlaneKeyIcon": {
+        "method": "xpath",
+        "value": ".//section[contains(@technicalarea,'Tutorials')]//span[contains(@class, 'locked')]"
+      },
+      "SelfPacedSwimlaneLabel": {
+        "method": "id",
+        "value": "title"
+      },
+      "SelfPacedAllContents": {
+        "method": "xpath",
+        "value": ".//li[contains(@class,'selfpacedItem')]"
+      },
+      "SelfPacedPLMSContentsWithoutAccess1": {
+        "method": "css",
+        "value": ".selfpacedItem.ng-scope.ng-isolate-scope.accessDenied"
+      },
+      "SelfPacedPLMSContentsWithoutAccess": {
+        "method": "xpath",
+        "value": ".//li[contains(@class,'ng-scope ng-isolate-scope selfpacedItem accessDenied')]"
+      },
+      "SelfPacedIoTUContents": {
+        "method": "css",
+        "value": ".selfpacedItem.ng-scope.ng-isolate-scope"
+      },
+      "SelfPacedSeeMore": {
+        "method": "xpath",
+        "value": ".//section[contains(@header,'ulc.main.plms.self_paced.header')]/ul/li[contains(@class,'moreAction')]"
+      },
+      "SelfPacedSwimlaneKeyIcon": {
+        "method": "xpath",
+        "value": ".//section[contains(@header,'ulc.main.plms.self_paced.header')]/ul//span[contains(@class,'locked')]"
+      },
+      "LaunchIoTUCourse": {
+        "method": "css",
+        "value": "#eLearningList li[title='Course']"
+      },
+      "ILEDetailPage": {
+        "ILECourseTitle": {
+          "method": "css",
+          "value": "#mainContent > header > section > h1"
+        },
+        "ILECourseDescription": {
+          "method": "id",
+          "value": "lxCourseDescription"
+        },
+        "ParentLX": {
+          "method": "css",
+          "value": "main >section a"
+        },
+        "InstructorImage": {
+          "method": "css",
+          "value": "img"
+        },
+        "TeaserVideo":{
+          "method":"css",
+          "value":".introductoryVideo"
+        },
+        "StartLearningLink": {
+          "method": "id",
+          "value": "startLearning"
+        },
+        "Syllabus": {
+          "method": "id",
+          "value": "lxSyllabus"
+        },
+        "AvailableFormatHeader": {
+          "method": "css",
+          "value": "#lxCourseDeliveryTypes > h2"
+        },
+        "AvailableFormatList": {
+          "method": "css",
+          "value": "#lxCourseDeliveryList >  li"
+        },
+        "TypeOfAvailableFormats": {
+          "method": "css",
+          "value": "#lxCourseDeliveryList >  li h3"
+        },
+        "LaunchILEButton": {
+          "method": "css",
+          "value": "#lxILE > nav > a"
+        },
+        "LaunchILEButtonFromModal": {
+          "method": "css",
+          "value": "a > section > nav > button"
+        },
+        "findILE": {
+          "method": "css",
+          "value": "#mainContent > ui-view > section > iframe"
+        },
+        "getContentTitle":{
+          "method":"xpath",
+          "value":"//*[@id='menu_course_title']"
+        }
+      }
+    },
+    "searchResultsPage": {
+      "pageHeaderTitle": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/header/section/h1"
+      },
+      "headerCommunityForumsAndPosts": {
+        "method": "linkText",
+        "value": "Community Forums & Posts"
+      },
+      "lnkCommunityForumsAndPostsSeeMore": {
+        "method": "id",
+        "value": "seeMoreLinkCM"
+      },
+      "listCommunityForumsAndPosts": {
+        "method": "repeater",
+        "value": "data in lchckb.cmData"
+      },
+      "listTitleCommunityForumsAndPosts": {
+        "method": "css",
+        "value": "div[source='CM'] .title"
+      }
+    },
+    "seeMore": {
+      "VersionDiv": {
+        "method": "css",
+        "value": "#filterContent > div.ng-scope > div:nth-child(2)"
+      },
+      "ProductInfolist": {
+        "method": "xpath",
+        "value": "//ul[@class='productInformation']/li/span[1]"
+      },
+      "productVersionInfoList": {
+        "method": "css",
+        "value": ".versionFilter .ng-scope"
+      },
+      "content": {
+        "method": "css",
+        "value": ".showFull.listCategory>ul>li"
+      },
+      "contentTitle": {
+        "method": "css",
+        "value": ".detail .title.ng-binding"
+      },
+      "product": {
+        "facetsProductsList": {
+          "method": "css",
+          "value": ".treeView.productFilter>li>a"
+        },
+        "productFamilyCreo": {
+          "method": "xpath",
+          "value": "//*[@id='filterContent']/div[1]/div[1]/section/ul/li[3]"
+        },
+        "productCreo": {
+          "method": "xpath",
+          "value": "//*[@id='filterContent']/div[1]/div[1]/section/ul/li[3]/ul/li[2]/a"
+        },
+        "facetsProductsCheckbox": {
+          "method": "model",
+          "value": "plmssearchseemore.selectedProducts[product]"
+        },
+        "facetProductHeader": {
+          "method": "xpath",
+          "value": ".//*[text()='Product']"
+        },
+        "clearCurrentProduct": {
+          "method": "xpath",
+          "value": ".//*[text()='Show All']"
+        },
+        "getCurrentProduct": {
+          "method": "css",
+          "value": ".selectedFamily label"
+        },
+        "viewAllProducts": {
+          "method": "css",
+          "value": "#filterContent > div.ng-scope > div:nth-child(1) > section > ul > li:nth-child(14) > button"
+        },
+        "listFamilies": {
+          "method": "repeater",
+          "value": "family in productFamilyListCtrl.families"
+        },
+        "listProducts": {
+          "method": "css",
+          "value": ".hasProducts.ng-scope.showProducts>ul>li[class='ng-scope']"
+        },
+        "selectedProduct": {
+          "method": "",
+          "value": ""
+        }
+      },
+      "version": {
+        "allVersions": {
+          "method": "css",
+          "value": ".actionButton .viewAllButton.ng-binding"
+        },
+        "listVersions": {
+          "method": "repeater",
+          "value": "version in versionCtrl.versionMenu"
+        },
+        "selectedVersionCreo3": {
+          "method": "xpath",
+          "value": "//*[@id='filterContent']/div[1]/div[2]/ul[1]/li[2]"
+        },
+        "facetsVersionsHeader": {
+          "method": "css",
+          "value": "h3[translate='ulc.search.filters.version']"
+        },
+        "facetsVersionsList": {
+          "method": "xpath",
+          "value": ".//*[@id='filterContent']/div[1]/div[2]/ul[1]/li/label/span"
+        },
+        "facetsVersionsUncheckedCheckbox": {
+          "method": "css",
+          "value": ".ng-scope>label>input.ng-pristine.ng-untouched.ng-valid.ng-empty"
+        },
+        "facetsVersionsCheckedCheckbox": {
+          "method": "xpath",
+          "value": ".//*[@id='filterContent']/div[1]/div[2]/ul[1]/li/label/input[@class='ng-pristine ng-untouched ng-valid ng-not-empty']/../span"
+        }
+      },
+      "contentType": {
+        "listContentTypes": {
+          "method": "",
+          "value": ""
+        },
+        "Tutorial": {
+          "method": "xpath",
+          "value": ".//*[@id='filterContent']/div[3]/ul/li[1]"
+        },
+        "ELearning": {
+          "method": "",
+          "value": ".//*[@id='filterContent']/div[3]/ul/li[2]/label/span"
+        },
+        "ReferenceDocuments": {
+          "method": "xpath",
+          "value": ".//*[@id='filterContent']/div[3]/ul/li[3]"
+        },
+        "HelpCenterDocuments": {
+          "method": "xpath",
+          "value": ".//*[@id='filterContent']/div[3]/ul/li[4]"
+        },
+        "AllContentType": {
+          "method": "xpath",
+          "value": ".//*[@id='filterContent']/div[3]/ul/li/label/input"
+        },
+        "SelectedContentType": {
+          "method": "css",
+          "value": ".ng-scope.active label span"
+        }
+      },
+      "contentLanguages": {
+        "listContentLanguages": {
+          "method": "",
+          "value": ""
+        },
+        "selectedContentLanguage": {
+          "method": "css",
+          "value": ".singleSelectFacets.contentLangFilter .customDropdown.languageSwitcher.ng-pristine.ng-valid li:nth-child(1) label"
+        },
+        "contentLanguageFR": {
+          "method": "xpath",
+          "value": ".//*[@id='fr']"
+        },
+        "contentLanguageKorean": {
+          "method": "xpath",
+          "value": ".//*[@id='ko']"
+        },
+        "contentLanguageEnglish": {
+          "method": "xpath",
+          "value": ".//*[@id='en']"
+        }
+      }
+    },
+    "hCkBSeeMore": {
+      "helpCenter": {
+        "method": "repeater",
+        "value": "data in helpCenterCtrl.hcData"
+      },
+      "hcProductInfoResultSet": {
+        "method": "xpath",
+        "value": "//ul[@class='helpCenterInfo']/li[1]"
+      },
+      "hcVersionInfoResultSet": {
+        "method": "xpath",
+        "value": "//ul[@class='helpCenterInfo']/li[2]"
+      },
+      "knowledgeBase": {
+        "method": "repeater",
+        "value": "data in kbCtrl.kbData"
+      }
+    },
+    "communitySeeMore": {
+      "communityresults": {
+        "method": "xpath",
+        "value": "//div[@id='results']/community-forums/section/section/ul/li"
+      }
+    },
+    "tutorialSeeMore": {
+      "btnSeeMore": {
+        "method": "css",
+        "value": ".seeMoreResults"
+      },
+      "listProduct": {
+        "method": "css",
+        "value": "#productVersionSwitcher form ul li:nth-child(2)"
+      },
+      "listProductVersion": {
+        "method": "xpath",
+        "value": "//*[@id='productVersionSwitcher']/form[2]/ul/li[4]"
+      },
+      "checkboxWhatsNew": {
+        "method": "model",
+        "value": "whatsNewCtrl.whatsNewDataVisible"
+      },
+      "radioContentTypeTutorials": {
+        "method": "xpath",
+        "value": "//*[@id='mainContent']/ui-view/section/aside/ul[1]/li[1]/label"
+      },
+      "radioContentTypeElearning": {
+        "method": "xpath",
+        "value": "//*[@id='mainContent']/ui-view/section/aside/ul[1]/li[2]/label"
+      },
+      "radioElearning": {
+        "method": "xpath",
+        "value": "//*[@id='mainContent']/ui-view/section/aside/ul[1]/li[2]/label/input"
+      },
+      "contentTypeTitleTutorial": {
+        "method": "xpath",
+        "value": "//*[@id='mainContent']/ui-view/section/div/section/h2"
+      },
+      "contentTypeTitleLearning": {
+        "method": "xpath",
+        "value": "//*[@id='mainContent']/ui-view/section/section/h2[1]"
+      },
+      "contentType": {
+        "method": "xpath",
+        "value": "//*[@id='mainContent']/ui-view/section/aside/h3"
+      },
+      "productTitle": {
+        "method": "xpath",
+        "value": "//*[@id='mainContent']/ui-view/section/aside/h3[2]"
+      },
+      "versionTitle": {
+        "method": "xpath",
+        "value": "//*[@id='mainContent']/ui-view/section/aside/h3[3]"
+      },
+      "createdByTitle": {
+        "method": "xpath",
+        "value": "//*[@id='mainContent']/ui-view/section/aside/h3[4]"
+      },
+      "firstLexTutorial": {
+        "method": "css",
+        "value": "[title$='Tutorial']:first-of-type"
+      },
+      "resultTitle": {
+        "method": "css",
+        "value": " .title"
+      },
+      "resultDescription": {
+        "method": "css",
+        "value": " .detailText"
+      },
+      "productVersions": {
+        "method": "css",
+        "value": "#results > lex-tutorials li > span.ng-binding.ng-scope"
+      }
+    },
+    "eLearningSeeMore": {
+      "btnSeeMore": {
+        "method": "buttonText",
+        "value": "See More"
+      },
+      "courses": {
+        "method": "repeater",
+        "value": "course in eLearningCtrl.plmsData.courses"
+      },
+      "coursesProductsList": {
+        "method": "css",
+        "value": ".productInformation span:nth-child(1)"
+      },
+      "coursesVersionsList": {
+        "method": "css",
+        "value": "#results > lex-tutorials  li > span.ng-binding.ng-scope"
+      },
+      "facetsProductsHeader": {
+        "method": "css",
+        "value": ".leftColumn h3:nth-child(2)"
+      },
+      "facetsVersionsHeader": {
+        "method": "xpath",
+        "value": ".//*[@id='filterContent']//*[text()='Version']"
+      },
+      "facetsProductsList": {
+        "method": "repeater",
+        "value": "product in plmssearchseemore.plmsData.facets.productList.products"
+      },
+      "facetsVersionsList": {
+        "method": "xpath",
+        "value": ".//*[@id='filterContent']/div[1]/div[2]/ul[1]/li/label/span"
+      },
+      "facetsProductsCheckbox": {
+        "method": "model",
+        "value": "plmssearchseemore.selectedProducts[product]"
+      },
+      "facetsVersionsUncheckedCheckbox": {
+        "method": "xpath",
+        "value": ".//*[@id='filterContent']/div/div[2]/ul/li/label/input[@class='ng-pristine ng-untouched ng-valid ng-empty']"
+      },
+      "facetsVersionsCheckedCheckbox": {
+        "method": "xpath",
+        "value": "//*[@id='filterContent']/div/div[2]/ul/li/label/input[@class='ng-pristine ng-untouched ng-valid ng-not-empty']"
+      }
+    },
+    "caseStudiesResultDetailsPage": {
+      "relatedArticles": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/ui-view/article/nav"
+      },
+      "firstCaseStudyResultTitle": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/header/section/h1"
+      },
+      "firstCaseStudyResultDescription": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/ui-view/article/section/p"
+      }
+    },
+    "videoDetailPage": {
+      "videoTitle": {
+        "method": "css",
+        "value": "#mainContent>header>section>h1"
+      },
+      "videoDescription": {
+        "method": "css",
+        "value": ".tutorialMetadata > p"
+      },
+      "videoPlayer": {
+        "method": "xpath",
+        "value": ".//div[contains(@id,'display_button_play')]"
+      },
+      "videoPause": {
+        "method": "css",
+        "value": ".jwplay>span>button"
+      },
+      "videoForward": {
+        "method": "css",
+        "value": ".jwtimeSliderProgressCapRight"
+      },
+      "communityForumLnk": {
+        "method": "css",
+        "value": ".forumItem"
+      },
+      "viewInfo": {
+        "method": "css",
+        "value": ".distributionListNoHeaders"
+      },
+      "relatedVideos": {
+        "method": "css",
+        "value": ".videoItem"
+      },
+      "relatedVideosThumb": {
+        "method": "css",
+        "value": ".thumb"
+      },
+      "ttlRelatedVideos": {
+        "method": "css",
+        "value": ".detail>h3"
+      },
+      "relatedVideosHeader": {
+        "method": "css",
+        "value": ".relatedContent h2"
+      }
+    },
+    "thingworx": {
+      "helpButtonThingworx":{
+        "method": "css",
+        "value": "a.au-target.nav-link.tw-icon-help-icon.dropdown-toggle"
+      },
+      "lnkLearningConnector": {
+        "method": "css",
+        "value": "ul.dropdown-menu.dropdown-menu-right.show >li >a[data-action='learning-connector']"
+      },
+      "thingworxHome": {
+        "method": "css",
+        "value": ".tab-navigate-command.explorer-tab.home-tab"
+      },
+      "thingworxNewButton": {
+        "method": "css",
+        "value": ".btn.btn-quick-link.au-target>span.tw-icon-create-icon"
+      },
+      "btnNewThing": {
+        "method": "css",
+        "value": ".popover-body .list-group.au-target .list-group-item.au-target:nth-child(2)"
+      },
+      "thingworxSplashScreen": {
+        "method": "id",
+        "value": "twStudioSplash"
+      },
+      "thingTemplates":
+      {
+        "method": "xpath",
+        "value": "//div[@id='twStudioBody']//div[@id='nav-explorer']/ul/li[4]/ul/li[2]/a"
+      }
+    },
+    "windchill": {
+      "QuickLinks": {
+        "method": "xpath",
+        "value": "//button[contains(text(),'Quick Links')]"
+      },
+      "LCLink": {
+        "method": "xpath",
+        "value": "//span[contains(text(),'PTC Learning Connector')]"
+      },
+      "submitChangeNotice": {
+        "method": "css",
+        "value": "#ext-gen293"
+      }
+    },
+    "hostApplication": {
+      "ulcUrlInput": {
+        "method": "id",
+        "value": "userInput"
+      },
+      "selectProduct": {
+        "method": "css",
+        "value": "#product"
+      },
+      "selectVersion": {
+        "method": "css",
+        "value": "#version"
+      },
+      "selectLanguage": {
+        "method": "css",
+        "value": "#locale"
+      },
+      "commandInput": {
+        "method": "id",
+        "value": "command"
+      },
+      "launchLcBtn": {
+        "method": "css",
+        "value": ".button"
+      },
+      "btnSendCommand": {
+        "method": "css",
+        "value": "button[type='button']"
+      }
+    },
+    "plms": {
+      "logOut": {
+        "method": "linkText",
+        "value": "Log Out"
+      }
+    },
+    "ptcsupport": {
+      "logOut": {
+        "method": "linkText",
+        "value": "Logout"
+      },
+      "welcomeMsg": {
+        "method": "xpath",
+        "value": ".//table[1]/tbody/tr/td[2]/div"
+      },
+      "userAccount": {
+        "method": "css",
+        "value": ".dropdown-menu-toggle:nth-child(3)"
+      }
+    },
+    "courseViewer": {
+      "courseTitle": {
+        "method": "xpath",
+        "value": ".//*[@id='courseMap']/h1"
+      },
+      "backToULC": {
+        "method": "id",
+        "value": "backTo"
+      },
+      "nextTopic": {
+        "method": "id",
+        "value": "topicNext"
+      },
+      "previousTopic": {
+        "method": "css",
+        "value": "#topicPrevious"
+      },
+      "coursePTCLinkInHeader": {
+        "method": "css",
+        "value": "#courseControls>h1"
+      },
+      "coursePTCLinkInFooter": {
+        "method": "xpath",
+        "value": ".//*[@id='ng-app']/body/footer"
+      },
+      "courseTitleInHeader": {
+        "method": "xpath",
+        "value": ".//*[@id='lessonHeader']/header/h1"
+      },
+      "courseTitleInTree": {
+        "method": "css",
+        "value": ".active.courseModule>a"
+      },
+      "bookmarkIcon": {
+        "method": "css",
+        "value": "#lessonBookmark"
+      },
+      "courseModules": {
+        "method": "xpath",
+        "value": ".//*[@id='courseMap']/ol/li"
+      },
+      "markCourseComplete": {
+        "method": "css",
+        "value": "#AssignmentOrCourseComplete"
+      }
+    },
+    "tunerWindow": {
+      "tunerIcon": {
+        "method": "css",
+        "value": ".tunerIcon"
+      },
+      "tunerSearch": {
+        "method": "css",
+        "value": ".tunerSearch"
+      },
+      "commands": {
+        "method": "css",
+        "value": ".tunerWindow table tbody tr td:nth-child(1)"
+      },
+      "externalTunerIcon": {
+        "method": "css",
+        "value": ".addExternalTutorial"
+      },
+      "refreshRecommendation": {
+        "method": "css",
+        "value": ".refreshRecommendations"
+      },
+      "editCstmRecommendation": {
+        "method": "css",
+        "value": ".editCustomRecommendation"
+      },
+      "editStdRecommendation": {
+        "method": "css",
+        "value": ".editRecommendation"
+      },
+      "courseMappedList": {
+        "method": "css",
+        "value": ".topicRecommend.selfpacedItem"
+      },
+      "courseMappedTitle": {
+        "method": "css",
+        "value": ".topicRecommend.selfpacedItem .detail"
+      },
+      "urlSource": {
+        "method": "css",
+        "value": ".thumb>img"
+      },
+      "urlTitle": {
+        "method": "css",
+        "value": ".title.ng-binding"
+      },
+      "urlDesc": {
+        "method": "css",
+        "value": ".detailText.ng-binding"
+      },
+      "editUrl": {
+        "method": "css",
+        "value": ".editRecommendation.ng-binding"
+      },
+      "deleteUrl": {
+        "method": "css",
+        "value": ".deleteRecommendation.ng-binding"
+      },
+      "deleteUrlAlertBox": {
+        "method": "css",
+        "value": "._md.md-default-theme.md-transition-in"
+      },
+      "deleteUrlAlertOption": {
+        "method": "css",
+        "value": ".md-primary.md-confirm-button.md-button.md-default-theme.md-ink-ripple"
+      },
+      "moveUpExtUrl": {
+        "method": "css",
+        "value": ".moveUp"
+      },
+      "moveDownExtUrl": {
+        "method": "css",
+        "value": ".moveDown"
+      },
+      "reorderUrl": {
+      }
+    },
+    "plmstunerwindow": {
+
+      "createMappingButton":{
+        "method": "css",
+        "value": ".ccButtonBar a span"
+      },
+      "modalWindow":{
+        "method": "xpath",
+        "value": "//*[@id='lightBox']/div/div/h1"
+      },
+      "radioButtonToMapCommand": {
+        "method": "css",
+        "value": ".checkBoxColumn [type='radio']"
+      },
+      "addButtonToCreateAlias": {
+        "method": "css",
+        "value": ".buttonNav a.button.primary span"
+      },
+      "createAliasMessage": {
+        "method": "css",
+        "value": ".notification-success"
+      },
+      "selectFirstTitleForMap":{
+        "method": "css",
+        "value": ".stripeMe>tbody >tr >td"
+      },
+      "getTitleCourseForMap":{
+        "method": "css",
+        "value": ".learningItemTitle"
+      },
+      "selectFirstCourseForMap":{
+        "method": "css",
+        "value": ".selectItem"
+      },
+      "btnAddAndContinue":{
+        "method": "xpath",
+        "value": "//a[@class='button']/span[contains(text(),'Add and Continue')]"
+      },
+      "btnClearMapping":{
+        "method": "xpath",
+        "value": "//li[@class='buttonAction']/a/span[contains(text(),'Clear Mapping')]"
+      }
+
+    },
+    "tuner": {
+      "ptcHeader": {
+        "method": "css",
+        "value": ".tstLogoHomeLink"
+      },
+      "currentlyCustomizing": {
+        "method": "css",
+        "value": ".lcHelpCenterPage.first"
+      },
+      "productMapping": {
+        "method": "css",
+        "value": ".lcCurrentlyTuningInfo li:nth-child(2)"
+      },
+      "versionMapping": {
+        "method": "css",
+        "value": ".lcCurrentlyTuningInfo li:nth-child(3)"
+      },
+      "clearMapping": {
+        "method": "css",
+        "value": ".buttonAction a"
+      },
+      "rmvSelectedShortcuts": {
+        "method": "css",
+        "value": ".ccButtonBar a"
+      },
+      "mappingTitleTextBox": {
+        "method": "css",
+        "value": "#titleText"
+      },
+      "saveTitleButton": {
+        "method": "css",
+        "value": ".mappingTitleField ol li:nth-child(2) a"
+      },
+      "rmvMappingButton": {
+        "method": "css",
+        "value": ".removeAction"
+      },
+      "searchCoursesField": {
+        "method": "css",
+        "value": ".input [name='searchField']"
+      },
+      "searchCoursesButton": {
+        "method": "css",
+        "value": ".input .button"
+      },
+      "selectCtgDrpdwn": {
+        "method": "css",
+        "value": ".//*[@name='windchillFilterPanel:tuner.listcourses.category.field']"
+      },
+      "selectTWXInCtgDrpdwn": {
+        "method": "xpath",
+        "value": ".//option[ . = 'ThingWorx']"
+      },
+      "selectVrsnDrpdwn": {
+        "method": "css",
+        "value": ".//*[@name='windchillFilterPanel:tuner.listcourses.version.field']"
+      },
+      "selectVrsnAny": {
+        "method": "xpath",
+        "value": ".//option[ . = 'Any']"
+      },
+      "selectVrsn5_0": {
+        "method": "xpath",
+        "value": ".//option[ . = '5.0']"
+      },
+      "selectVrsn5_4": {
+        "method": "xpath",
+        "value": ".//option[ . = '5.4']"
+      },
+      "selectVrsn6_0": {
+        "method": "xpath",
+        "value": ".//option[ . = '6.0']"
+      },
+      "selectVrsn6_5": {
+        "method": "xpath",
+        "value": ".//option[ . = '6.5']"
+      },
+      "selectVrsn7_1": {
+        "method": "xpath",
+        "value": ".//option[ . = '7.1']"
+      },
+      "selectVrsn7_2": {
+        "method": "xpath",
+        "value": ".//option[ . = '7.2']"
+      }
+    },
+    "systemMessages": {
+      "addNewMsgBtn": {
+        "method": "xpath",
+        "value": ".//button[contains(text(),'Add New Message')]"
+      },
+      "backBtn": {
+        "method": "xpath",
+        "value": ".//button[contains(text(),'Back')]"
+      },
+      "titleText": {
+        "method": "css",
+        "value": ".titleArea [type='text']"
+      },
+      "allProductVersion": {
+        "method": "css",
+        "value": ".productArea [type='checkbox']"
+      },
+      "thingworx6_0": {
+        "method": "xpath",
+        "value": ".//option[@label='Thingworx 6.0']"
+      },
+      "thingworx6_5": {
+        "method": "xpath",
+        "value": ".//option[@label='Thingworx 6.5']"
+      },
+      "thingworx7_2": {
+        "method": "xpath",
+        "value": ".//option[@label='Thingworx 7.2']"
+      },
+      "windchill8_0": {
+        "method": "xpath",
+        "value": ".//option[@label='Windchill 8.0']"
+      },
+      "windchill9_0": {
+        "method": "xpath",
+        "value": ".//option[@label='Windchill 9.0']"
+      },
+      "windchill10_0": {
+        "method": "xpath",
+        "value": ".//option[@label='Windchill 10.0']"
+      },
+      "windchill11_0": {
+        "method": "xpath",
+        "value": ".//option[@label='Windchill 11.0']"
+      },
+      "allContext": {
+        "method": "css",
+        "value": ".contextArea [type='checkbox']"
+      },
+      "newContext": {
+        "method": "css",
+        "value": ".contextArea [type='text']"
+      },
+      "addContext": {
+        "method": "css",
+        "value": ".contextArea [title='Add']"
+      },
+      "englishMsgTxt": {
+        "method": "css",
+        "value": ".messageArea li:nth-child(1) textArea"
+      },
+      "frenchMsgTxt": {
+        "method": "css",
+        "value": ".messageArea li:nth-child(2) textArea"
+      },
+      "germanMsgTxt": {
+        "method": "css",
+        "value": ".messageArea li:nth-child(3) textArea"
+      },
+      "japaneseMsgTxt": {
+        "method": "css",
+        "value": ".messageArea li:nth-child(4) textArea"
+      },
+      "sChineseMsgTxt": {
+        "method": "css",
+        "value": ".messageArea li:nth-child(5) textArea"
+      },
+      "tChineseMsgTxt": {
+        "method": "css",
+        "value": ".messageArea li:nth-child(6) textArea"
+      },
+      "italianMsgTxt": {
+        "method": "css",
+        "value": ".messageArea li:nth-child(7) textArea"
+      },
+      "koreanMsgTxt": {
+        "method": "css",
+        "value": ".messageArea li:nth-child(8) textArea"
+      },
+      "russianMsgTxt": {
+        "method": "css",
+        "value": ".messageArea li:nth-child(9) textArea"
+      },
+      "spanishMsgTxt": {
+        "method": "css",
+        "value": ".messageArea li:nth-child(10) textArea"
+      },
+      "portugueseMsgTxt": {
+        "method": "css",
+        "value": ".messageArea li:nth-child(11) textArea"
+      },
+      "btnSave": {
+        "method": "xpath",
+        "value": ".//button[contains(text(),'Save')]"
+      },
+      "msgRowsInTable": {
+        "method": "css",
+        "value": ".grid tbody tr"
+      },
+      "msgTitleInTable": {
+        "method": "css",
+        "value": "td:nth-child(1)"
+      },
+      "removeMsg": {
+        "method": "css",
+        "value": ".grid tr td .removeMessage"
+      },
+      "removeMsgAll": {
+        "method": "css",
+        "value": ".removeMessage.ng-scope"
+      },
+      "acceptRemoveMsg": {
+        "method": "css",
+        "value": ".md-confirm-button"
+      },
+      "editMsg": {
+        "method": "",
+        "value": ".grid tr td .editMessage"
+      },
+      "sysMsgOnTheProduct": {
+        "method": "css",
+        "value": ".system-message-information .ng-binding"
+      },
+      "closeSystemMsg": {
+        "method": "css",
+        "value": ".closeMessage"
+      },
+      "notificationMsg": {
+        "method": "css",
+        "value": ".md-toast-text"
+      }
+    },
+    "supportLogin": {
+      "userName": {
+        "method": "xpath",
+        "value": "//*[@id='ptcSecureUser']"
+      },
+      "password": {
+        "method": "xpath",
+        "value": "//*[@id='ptcSecurePass']"
+      },
+      "loginButton": {
+        "method": "xpath",
+        "value": "//*[@id='loginSubmit']"
+      }
+    },
+    "supportDocument": {
+      "documentTitle": {
+        "method": "css",
+        "value": ".article_solution_title_h1.article_fix_h1"
+      },
+      "documentHCTitle": {
+        "method": "xpath",
+        "value": "//html[3]/head/title"
+      },
+      "documentCFTitle": {
+        "method": "css",
+        "value": ".PageTitle.lia-component-common-widget-page-title"
+      },
+      "documentTypeKB": {
+        "method": "xpath",
+        "value": "//*[@id='TSDocumentType_ChkGroup_Reference Document']"
+      },
+      "documentTypeText": {
+        "method": "xpath",
+        "value": "//*[@id='Value']/label"
+      },
+      "documentTypeArt": {
+        "method": "xpath",
+        "value": "//*[@id='TSDocumentType_ChkGroup_Article']"
+      },
+      "documentTypeHC": {
+        "method": "xpath",
+        "value": "//*[@id='TSDocumentType_ChkGroup_Help Center']"
+      },
+      "documentTypeCM": {
+        "method": "xpath",
+        "value": "//*[@id='TSDocumentType_ChkGroup_Community Forum']"
+      },
+      "documentTypeCB": {
+        "method": "xpath",
+        "value": "//*[@id='TSDocumentType_ChkGroup_Community Blog']"
+      },
+      "keywordBox": {
+        "method": "css",
+        "value": ".ms-textLarge"
+      }
+    },
+    "externalURLMap": {
+      "urlMapped": {
+        "method": "model",
+        "value": "webcontentctrl.externalurl"
+      },
+      "urlTitle": {
+        "method": "model",
+        "value": "webcontentctrl.title"
+      },
+      "urlPath": {
+        "method": "model",
+        "value": "webcontentctrl.imageFile"
+      },
+      "urlDesc": {
+        "method": "model",
+        "value": "webcontentctrl.description"
+      },
+      "msgCloseButton": {
+        "method": "css",
+        "value": ".ngn-dismiss"
+      },
+      "saveButton": {
+        "method": "css",
+        "value": ".primaryButton.ng-scope"
+      },
+      "closeButton": {
+        "method": "css",
+        "value": ".closeModal"
+      }
+    },
+    "recommendations": {
+      "featuredLearningTitle": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/ui-view/div/section[3]/section/h2"
+      },
+      "eLearningTopicTitle": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/ui-view/div/section[3]/section/ul/li/div/a/div/ul/li[1]/strong"
+      },
+      "eLearningItem": {
+        "method": "css",
+        "value": "li[title='Self-paced course']"
+      },
+      "eLearningProduct": {
+        "method": "xpath",
+        "value": ".//*[@id='mainContent']/ui-view/div/section[3]/section/ul/li/div/a/div/ul/li[2]/span"
+      },
+      "addtionalResource": {
+        "method": "css",
+        "value": "li[title='Additional Resource']"
+      },
+      "listFeaturedLearning": {
+        "method": "css",
+        "value": "li[item='featuredItem']"
+      },
+      "seemoreFeaturedLearningSection": {
+        "method": "css",
+        "value": "section[id='featuredLane'] .moreAction"
+      },
+      "recommendationTitle": {
+        "method": "xpath",
+        "value": ".//*[@id='featuredLane']/section/h2/span"
+      },
+      "videoList": {
+        "method": "css",
+        "value": ".videoItem"
+      },
+      "recommendationHeader": {
+        "method": "css",
+        "value": ".ng-binding.ng-scope"
+      },
+      "elearningList": {
+        "method": "css",
+        "value": ".selfpacedItem"
+      },
+      "externalURLList": {
+        "method": "css",
+        "value": ".externalItem"
+      },
+      "courseTitleOfMappedContent": {
+        "method": "css",
+        "value": "#featuredLane .title>span"
+      },
+      "titleMappedToCommand": {
+        "method": "xpath",
+        "value": "//*[@id='mainContent']/ui-view/div/section[2]/section/section/table/tbody/tr[1]/td[2]"
+      },
+      "deleteIcon": {
+        "method": "css",
+        "value": ".deleteRecommendation"
+      }
+    },
+    "advertisement":{
+      "closeButton":{
+        "method" : "css",
+        "value" : "lc-comm[type='inline'][page='tutorial'] button"
+      },
+      "adTitle":{
+        "method" : "css",
+        "value" : ".lcComm-text .ng-binding"
+      },
+
+      "tutorialInlineAd":{
+        "method" : "css",
+        "value" : "lc-comm[type='inline'][page='tutorial'] > aside"
+      },
+      "tutorialInlineAdCTALink":{
+        "method" : "css",
+        "value" : ".lcComm-text .lcComm-link.ng-binding"
+      },
+      "linkedUrl":{
+        "method" : "css",
+        "value" : ".lcComm-text .lcComm-link.ng-binding"
+      },
+      "bottomAd":{
+        "method":"css",
+        "value":"#mainContent > ui-view > lc-comm:nth-child(1) > aside"
+      },
+      "bottomAdTitle":{
+        "method":"css",
+        "value":"#mainContent > ui-view > lc-comm:nth-child(1) > aside > div > nav > a:nth-child(1)"
+      },
+      "bottomAdCloseButton":{
+        "method" : "css",
+        "value" : "#mainContent > ui-view > lc-comm:nth-child(1) > aside > button"
+      },
+      "bottomAdCTALink":{
+        "method":"css",
+        "value":"#mainContent > ui-view > lc-comm:nth-child(1) > aside > div > nav > a.lcComm-link.ng-binding"
+      },
+      "sideAd":{
+        "method":"css",
+        "value":"lc-comm[type='side'][page='search'] > aside"
+      },
+      "sideAdTitle":{
+        "method":"css",
+        "value":".lcComm-text .title.ng-binding"
+      },
+      "sideAdCloseButton":{
+        "method" : "css",
+        "value" : "lc-comm[type='side'][page='search'] >aside >div >button"
+      },
+      "sideAdCTALink":{
+        "method":"css",
+        "value":"lc-comm[type='side'] .lcComm-link.ng-binding"
+      },
+      "topAdTitle":{
+        "method" : "css",
+        "value" : ".generic-product-page-lcComm .lcComm-text .ng-binding:nth-child(1)"
+      },
+      "topAdCTALink":{
+        "method" : "css",
+        "value" : ".generic-product-page-lcComm .lcComm-text .lcComm-link.ng-binding"
+      },
+      "topAdCloseButton":{
+        "method" : "css",
+        "value" : ".generic-product-page-lcComm .close-lcComm"
+      },
+      "topAd":{
+        "method" : "css",
+        "value" : ".generic-product-page-lcComm.lcComm-wrapper"
+      },
+      "inlineAdTitle":{
+        "method" : "css",
+        "value" : "#mainContent .lcComm-container .lcComm-text a:nth-child(1)"
+      },
+      "inlineAdCTALink":{
+        "method" : "css",
+        "value" : "#mainContent .lcComm-container .lcComm-text a:nth-child(2)"
+      },
+      "inlineAdCloseButton":{
+        "method" : "css",
+        "value" : "lc-comm[type='inline'][page='browse'] .close-lcComm"
+      },
+      "inlineAd":{
+        "method" : "css",
+        "value" : "lc-comm[type='inline'][page='browse'] aside"
+      }
+    }
+  }
+}

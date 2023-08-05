@@ -1,0 +1,31 @@
+{
+  "name": "ulc-e2e-automation",
+  "version": "1.0.0",
+  "description": "Protractor e2e test automation for PTC-ULC (v3.0+)",
+  "main": "conf.js",
+  "scripts": {
+    "dockerTest": "protractor conf.js --seleniumServerJar='/usr/lib/node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.141.59.jar' --chromeDriver='/usr/lib/node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_2.46' --geckoDriver='/usr/lib/node_modules/protractor/node_modules/webdriver-manager/selenium/gekodriver-v0.11.1'"
+  },
+  "author": "ulc",
+  "dependencies": {
+    "adm-zip": "0.4.7",
+    "browsermob-proxy-api": "^0.3.1",
+    "freeport": "^1.0.5",
+    "fs": "0.0.2",
+    "html-entities": "^1.2.0",
+    "jasmine-allure-reporter": "^1.0.1",
+    "jasmine-data-provider": "^2.2.0",
+    "mysql-ssh": "^1.0.6",
+    "mysql2": "^1.5.3",
+    "nodemailer": "^4.6.4",
+    "path": "^0.12.7",
+    "portscanner": "^1.0.0",
+    "protractor": "^4.0.11",
+    "q": "^1.4.1",
+    "request": "^2.74.0",
+    "sendmail": "^1.4.1"
+  },
+  "devDependencies": {
+    "excel-as-json": "^2.0.1"
+  }
+}

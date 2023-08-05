@@ -1,0 +1,24 @@
+<qa:environment xmlns:qa="urn:model.commons.qatools.yandex.ru">
+    <id>2a54c4d7-7d79-4615-b80d-ffc1107016a1</id>
+    <name>Allure sample test pack</name>
+    <parameter>
+        <name>Test Browser</name>
+        <key>Test Browser</key>
+        <value>Chrome</value>
+    </parameter>
+    <parameter>
+        <name>Universal Learning Connector Environment URL</name>
+        <key>Universal Learning Connector URL</key>
+        <value>https://uat-learningconnector.ptc.com</value>
+    </parameter>
+     <parameter>
+        <name>ULC-E2E-Automation Repository URL</name>
+        <key>ULC-E2E-Automation Repository URL</key>
+        <value>https://gitlab.ptcusys.com/ptcusys/ULC-E2E-Automation/</value>
+    </parameter>
+    <parameter>
+        <name>ULC-E2E-Automation Jenkin Job URL</name>
+        <key>ULC-E2E-Automation Jenkin Job URL</key>
+        <value>http://ptcuniversity-ci.ptc.com:8080/view/ULC/job/ULC-E2E-Automation/</value>
+    </parameter>
+</qa:environment>  

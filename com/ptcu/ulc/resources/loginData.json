@@ -1,0 +1,26 @@
+{
+  "uid": [
+    "masked_"
+  ],
+  "pwd": [
+    "masked_"
+  ],
+  "userName": [
+    "masked_"
+  ],
+  "password": [
+    "masked_"
+  ],
+  "userName1": [
+    "masked_"
+  ],
+  "password1": [
+    "masked_"
+  ],
+  "dbDetails": {
+    "host": "masked_",
+    "user": "masked_",
+    "password": "masked_",
+    "database": "masked_"
+  }
+}
